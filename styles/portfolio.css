@@ -4,14 +4,26 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
+.container-1 {
+  margin: 10px auto; /* Center the container */
+  max-width: 1200px; /* Set a maximum width for the container */
+  padding: 10px; /* Add padding for spacing */
+}
+
 .logo {
   display: inline-block; /* Ensure the logo is treated as an inline element */
   max-width: 50px; /* Adjust the size of the logo */
   height: auto; /* Maintain aspect ratio */
 }
 
-.home-pics {
-  margin: 0 auto; /* Center the images */
-  display: flex; /* Use flexbox for layout */
-  max-width: 200px; /* Limit the width of the container */
+.imgone {
+  margin: 10 auto; /* Center the images */
+  max-width: 400px;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.imgthree {
+  margin: 10 auto; /* Center the images */
+  max-width: 325px;
+  height: auto; /* Maintain aspect ratio */
 }
