@@ -1,3 +1,9 @@
+:root {
+  --secondary-color: #dfe0e1;
+  --logo-font: "Courier New", Courier, monospace;
+  --main-font: "Josefin Sans", sans-serif; /* Main font for the site */
+}
+
 body {
   background-color: black; /* Dark gray background */
 }
@@ -10,4 +16,54 @@ h1 {
 p {
   font-family: "Courier New", monospace; /* Monospace font for paragraphs */
   color: white; /* White text for paragraphs */
+}
+
+.nav-logo {
+  width: 50px; /* Adjust the width of the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.navbar-text {
+  font-family: var(--logo-font); /* Use the logo font for the navbar text */
+  color: black;
+  font-weight: bold; /* Bold text for the navbar */
+  font-size: 2em; /* Slightly larger font size */
+}
+
+.hero {
+  margin-top: 20px; /* Center the hero section */
+  text-align: center; /* Center the text in the hero section */
+  padding: 40px; /* Add padding around the hero section */
+  background-color: black;
+}
+
+.img-top {
+  max-width: 350px; /* Ensure images are responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.container {
+  background-color: var(
+    --secondary-color
+  ); /* Light gray background for the container */
+  max-width: 2000px; /* Limit the width of the container */
+  height: 75vh; /* Full viewport height */
+  padding: 20px; /* Add padding inside the container */
+  margin: 0 auto; /* Center the container */
+}
+
+.about-button {
+  background-color: black; /* Black background for the button */
+  color: white; /* White text for the button */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Add padding to the button */
+  font-family: var(--main-font); /* Use the logo font for the button */
+  font-size: 1.2em; /* Slightly larger font size for the button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.about-pic {
+  width: 30%; /* Full width for the about picture */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 20px; /* Add space above the picture */
 }
