@@ -76,3 +76,17 @@ p {
   height: auto; /* Maintain aspect ratio */
   margin-top: 20px; /* Add space above the picture */
 }
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Centers the button horizontally */
+  margin-top: 20px; /* Add space above the button */
+}
+.btn-contact {
+  color: black; /* Black background for the button */
+  background-color: var(--secondary-color); /* White text for the button */
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 27px;
+  padding: 10px 20px; /* Add padding to the button */
+}
