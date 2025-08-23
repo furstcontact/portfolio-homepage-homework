@@ -8,9 +8,20 @@ body {
   background-color: black; /* Dark gray background */
 }
 
-h1 {
-  color: white; /* White text for the header */
+h1,
+h2 {
+  color: var(--secondary-color); /* White text for the header */
   font-family: "Josefin Sans", sans-serif;
+  text-align: center; /* Center the header text */
+}
+
+h2 {
+  font-size: 1.25em; /* Slightly smaller font size for h2 */
+  margin-top: 10px; /* Add space above h2 */
+}
+h1 {
+  font-size: 4em; /* Larger font size for h1 */
+  font-weight: bold; /* Bold text for h1 */
 }
 
 p {
@@ -43,13 +54,11 @@ p {
 }
 
 .container {
-  background-color: var(
-    --secondary-color
-  ); /* Light gray background for the container */
+  background-color: black;
   max-width: 2000px; /* Limit the width of the container */
   height: 75vh; /* Full viewport height */
   padding: 20px; /* Add padding inside the container */
-  margin: 0 auto; /* Center the container */
+  margin: 30px 0px 0px 0px; /* Center the container */
 }
 
 .about-button {
