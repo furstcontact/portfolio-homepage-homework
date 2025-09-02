@@ -17,11 +17,21 @@ h2 {
 
 h2 {
   font-size: 1.25em; /* Slightly smaller font size for h2 */
-  margin-top: 10px; /* Add space above h2 */
+  margin-top: 30px; /* Add space above h2 */
 }
 h1 {
   font-size: 4em; /* Larger font size for h1 */
   font-weight: bold; /* Bold text for h1 */
+}
+
+h3 {
+  color: black; /* White text for the header */
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center; /* Center the header text */
+  font-size: 1.5em; /* Slightly smaller font size for h3 */
+  margin-top: 20px; /* Add space above h3 */
+  background-color: var(--secondary-color);
+  padding: 10px;
 }
 
 p {
@@ -42,9 +52,9 @@ p {
 }
 
 .hero {
-  margin-top: 20px; /* Center the hero section */
+  margin-top: auto; /* Center the hero section */
   text-align: center; /* Center the text in the hero section */
-  padding: 40px; /* Add padding around the hero section */
+  padding: 10px 20px; /* Add padding around the hero section */
   background-color: black;
 }
 
@@ -55,10 +65,12 @@ p {
 
 .container {
   background-color: black;
-  max-width: 2000px; /* Limit the width of the container */
-  height: 75vh; /* Full viewport height */
-  padding: 20px; /* Add padding inside the container */
-  margin: 30px 0px 0px 0px; /* Center the container */
+  max-width: 800px; /* Set a reasonable max width */
+  width: 100%; /* Full width up to max-width */
+  height: 55vh;
+  padding: 20px;
+  margin: 40px auto 0 auto; /* Center horizontally */
+  text-align: center;
 }
 
 .about-button {
