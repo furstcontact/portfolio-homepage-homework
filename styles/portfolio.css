@@ -54,7 +54,7 @@ p {
 .hero {
   margin-top: auto; /* Center the hero section */
   text-align: center; /* Center the text in the hero section */
-  padding: 10px 20px; /* Add padding around the hero section */
+  padding: 50px 20px 50px 20px; /* Add padding around the hero section */
   background-color: black;
 }
 
@@ -101,4 +101,8 @@ p {
   font-size: 16px;
   line-height: 27px;
   padding: 10px 20px; /* Add padding to the button */
+}
+
+.footer {
+  padding: 15px 0;
 }
