@@ -8,20 +8,20 @@ body {
   background-color: black; /* Dark gray background */
 }
 
-h1,
-h2 {
+.content h1 {
+  font-size: 4em; /* Larger font size for h1 */
+  font-weight: bold; /* Bold text for h1 */
   color: var(--secondary-color); /* White text for the header */
   font-family: "Josefin Sans", sans-serif;
   text-align: center; /* Center the header text */
 }
 
-h2 {
+.content h2 {
   font-size: 1.25em; /* Slightly smaller font size for h2 */
   margin-top: 30px; /* Add space above h2 */
-}
-h1 {
-  font-size: 4em; /* Larger font size for h1 */
-  font-weight: bold; /* Bold text for h1 */
+  color: var(--secondary-color); /* White text for the header */
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center; /* Center the header text */
 }
 
 h3 {
@@ -30,6 +30,7 @@ h3 {
   text-align: center; /* Center the header text */
   font-size: 1.5em; /* Slightly smaller font size for h3 */
   margin-top: 20px; /* Add space above h3 */
+  margin-bottom: 20px; /* Add space below h3 */
   background-color: var(--secondary-color);
   padding: 10px;
 }
@@ -64,7 +65,7 @@ p {
   height: auto; /* Maintain aspect ratio */
 }
 
-.container {
+.content-container {
   background-color: black;
   max-width: 800px; /* Set a reasonable max width */
   width: 100%; /* Full width up to max-width */
@@ -102,6 +103,13 @@ p {
   font-size: 16px;
   line-height: 27px;
   padding: 10px 20px; /* Add padding to the button */
+}
+
+.work-img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover; /* Ensures images fill the box and crop if needed */
+  margin-bottom: 20px;
 }
 
 .footer {
