@@ -5,7 +5,10 @@
 }
 
 body {
-  background-color: black; /* Dark gray background */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: black;
 }
 
 .content h1 {
@@ -113,5 +116,10 @@ p {
 }
 
 .footer {
+  margin-top: auto;
+  background-color: black;
+
+  text-align: center;
   padding: 15px 0;
+  font-family: var(--main-font);
 }
