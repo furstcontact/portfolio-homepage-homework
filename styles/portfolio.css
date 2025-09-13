@@ -78,6 +78,10 @@ p {
   text-align: center;
 }
 
+.content {
+  padding-bottom: 20px;
+}
+
 .about-button {
   background-color: black; /* Black background for the button */
   color: white; /* White text for the button */
@@ -98,6 +102,8 @@ p {
   display: flex;
   justify-content: center; /* Centers the button horizontally */
   margin-top: 20px; /* Add space above the button */
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 .btn-contact {
   color: black; /* Black background for the button */
